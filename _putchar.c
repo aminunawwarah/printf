@@ -1,9 +1,8 @@
 #include <unistd.h>
 /**
- * _putchar - shows a single character
- * @c: the character to be shown
- *
- * Return: returns 1 on success otherwise -1
+ * _putchar - writes the passed character to output
+ * @c: parameter for the character
+ * Return: 0 on success and -1 error and errno is set appropiately
  */
 int _putchar(char c)
 {
